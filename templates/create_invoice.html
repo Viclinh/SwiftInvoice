@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 mx-auto">
+        <h2>Create New Invoice</h2>
+        <form method="POST">
+            <div class="mb-3">
+                <label class="form-label">Client Name</label>
+                <input type="text" class="form-control" name="client_name" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Client Email</label>
+                <input type="email" class="form-control" name="client_email" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Amount ($)</label>
+                <input type="number" step="0.01" class="form-control" name="amount" required>
+            </div>
+            <button type="submit" class="btn btn-success">Create Invoice</button>
+            <a href="/dashboard" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+{% endblock %}

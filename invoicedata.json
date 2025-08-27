@@ -1,0 +1,97 @@
+[
+{
+	"invoiceNum":135, 
+	"accountName":"Customer Omega", 
+	"accountNumber":2,
+	"paymentDueDate":"September 25, 2025",
+	"address":"123 Main St, Dallas, TX 75201",
+	"currency":"USD",
+	"paymentMethod":"Credit Card",
+	"lineItems":[
+		{"product":"Product 2", "qty":3, "price":10, "totalPrice":30},
+		{"product":"Product 6", "qty":7, "price":9, "totalPrice":63},
+		{"product":"Product 5", "qty":2, "price":50, "totalPrice":100},
+		{"product":"Product 8", "qty":6, "price":15, "totalPrice":90}
+	]
+},
+{
+	"invoiceNum":30, 
+	"accountName":"Customer Sigma", 
+	"accountNumber":7,
+	"paymentDueDate":"September 12, 2025",
+	"address":"456 Market St, Houston, TX 77002",
+	"currency":"USD",
+	"paymentMethod":"Bank Transfer",
+	"lineItems":[
+		{"product":"Product A1", "qty":4, "price":20, "totalPrice":80},
+		{"product":"Product B2", "qty":2, "price":55, "totalPrice":110},
+		{"product":"Product C3", "qty":6, "price":12, "totalPrice":72},
+		{"product":"Product D4", "qty":1, "price":200, "totalPrice":200},
+		{"product":"Product E5", "qty":3, "price":35, "totalPrice":105}
+	]
+},
+{
+	"invoiceNum":31, 
+	"accountName":"Customer Orion", 
+	"accountNumber":8,
+	"paymentDueDate":"September 18, 2025",
+	"address":"789 Congress Ave, Austin, TX 73301",
+	"currency":"USD",
+	"paymentMethod":"PayPal",
+	"lineItems":[
+		{"product":"Product F1", "qty":7, "price":8, "totalPrice":56},
+		{"product":"Product G2", "qty":2, "price":90, "totalPrice":180},
+		{"product":"Product H3", "qty":10, "price":15, "totalPrice":150},
+		{"product":"Product I4", "qty":5, "price":40, "totalPrice":200},
+		{"product":"Product J5", "qty":1, "price":500, "totalPrice":500}
+	]
+},
+{
+	"invoiceNum":32, 
+	"accountName":"Customer Phoenix", 
+	"accountNumber":9,
+	"paymentDueDate":"September 25, 2025",
+	"address":"321 Alamo Plaza, San Antonio, TX 78205",
+	"currency":"USD",
+	"paymentMethod":"Credit Card",
+	"lineItems":[
+		{"product":"Product K1", "qty":3, "price":25, "totalPrice":75},
+		{"product":"Product L2", "qty":12, "price":10, "totalPrice":120},
+		{"product":"Product M3", "qty":4, "price":60, "totalPrice":240},
+		{"product":"Product N4", "qty":2, "price":150, "totalPrice":300},
+		{"product":"Product O5", "qty":6, "price":18, "totalPrice":108}
+	]
+},
+{
+	"invoiceNum":33, 
+	"accountName":"Customer Titan", 
+	"accountNumber":10,
+	"paymentDueDate":"October 2, 2025",
+	"address":"654 Mesa St, El Paso, TX 79901",
+	"currency":"USD",
+	"paymentMethod":"Check",
+	"lineItems":[
+		{"product":"Product P1", "qty":5, "price":22, "totalPrice":110},
+		{"product":"Product Q2", "qty":9, "price":14, "totalPrice":126},
+		{"product":"Product R3", "qty":2, "price":250, "totalPrice":500},
+		{"product":"Product S4", "qty":8, "price":30, "totalPrice":240},
+		{"product":"Product T5", "qty":1, "price":750, "totalPrice":750}
+	]
+},
+{
+	"invoiceNum":34, 
+	"accountName":"Customer Nova", 
+	"accountNumber":11,
+	"paymentDueDate":"October 10, 2025",
+	"address":"987 Sundance Sq, Fort Worth, TX 76102",
+	"currency":"USD",
+	"paymentMethod":"Bank Transfer",
+	"lineItems":[
+		{"product":"Product U1", "qty":2, "price":110, "totalPrice":220},
+		{"product":"Product V2", "qty":3, "price":90, "totalPrice":270},
+		{"product":"Product W3", "qty":5, "price":40, "totalPrice":200},
+		{"product":"Product X4", "qty":7, "price":12, "totalPrice":84},
+		{"product":"Product Y5", "qty":1, "price":1000, "totalPrice":1000}
+	]
+}
+]

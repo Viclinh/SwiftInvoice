@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 mx-auto text-center">
+        <h1 class="display-4">One-Click Invoice Generator</h1>
+        <p class="lead">Create professional invoices in seconds for your small business</p>
+        
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <h3>Free Plan</h3>
+                <p>5 invoices/month</p>
+                <p>Basic templates</p>
+                <p class="h4">$0/month</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Pro Plan</h3>
+                <p>Unlimited invoices</p>
+                <p>Custom templates</p>
+                <p class="h4">$9.99/month</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Business Plan</h3>
+                <p>Everything in Pro</p>
+                <p>API access</p>
+                <p class="h4">$19.99/month</p>
+            </div>
+        </div>
+        
+        <div class="mt-4">
+            <a href="/register" class="btn btn-primary btn-lg me-3">Get Started</a>
+            <a href="/login" class="btn btn-outline-primary btn-lg">Login</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
