@@ -18,11 +18,11 @@ We used Foxit Document Generation API to create invoices from uploaded data and 
 - Integrated multiple Foxit APIs into a smooth workflow.
 - Created a user-friendly tool that saves time and frustration for small businesses.
 
-##What we learned
+## What we learned
 - How to leverage Foxit document generation APIs effectively.
 - We learnt to write code to edit PDF using Foxit PDF API
 
-##What's next for SwiftInvoice
+## What's next for SwiftInvoice
 - Add subscription plans with more templates and advanced features.
 - Support recurring invoices and automatic email delivery.
 - Build integrations with payment platforms (Stripe, PayPal).
